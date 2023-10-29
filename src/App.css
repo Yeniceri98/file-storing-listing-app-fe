@@ -1,0 +1,36 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.title {
+	text-align: center;
+	margin: 24px;
+	font-weight: bold;
+}
+
+.delete-file-container {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.upload-file-container {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 12px;
+}
+
+.error-message {
+	margin-top: 16px;
+	text-align: center;
+	color: red;
+	font-weight: bold;
+}
+
+.swagger-link {
+	display: flex;
+	justify-content: center;
+	margin-top: 16px;
+}
